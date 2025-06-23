@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import com.hahn.task.model.Developer;
 import com.hahn.task.service.DeveloperService;
-@CrossOrigin(origins = {"http://localhost:3000/"})
+@CrossOrigin(origins = {"http://localhost:3001"})
 @RestController
 @RequestMapping("/api/developers")
 public class DeveloperController {
